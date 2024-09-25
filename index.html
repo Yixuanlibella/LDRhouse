@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Born to Die</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Room Wrapper -->
+  <div class="room">
+    
+
+    <div class="bookshelf">
+      <h2>Bookshelf</h2>
+      <div class="books">
+        <div class="book" onclick="playMusic('ride.mp3')">Song of the Open Road</div>
+        <div class="book" onclick="playMusic('body-electric.mp3')">Bible Studies</div>
+        <div class="book" onclick="playMusic('young-beautiful.mp3')">The Great Gatsby</div>
+        <div class="book" onclick="playMusic('off-to-the-races.mp3')">Lolita</div>
+      </div>
+    </div>
+
+   
+    <div class="table">
+      <h2>Table</h2>
+      <div class="liquors">
+        <div class="liquor" onclick="playMusic('cola.mp3')">Coca cola</Coca-cola></div>
+        <div class="liquor" onclick="playMusic('liquorMusic2.mp3')">Liquor 2</div>
+        <div class="liquor" onclick="playMusic('liquorMusic3.mp3')">Liquor 3</div>
+      </div>
+      
+      <div class="diary" onclick="playMusic('diaryMusic.mp3')">Open Diary</div>
+    </div>
+
+   
+    <div class="portrait">
+      <h2>Portrait</h2>
+      <div class="portrait-image" onclick="playMusic('portraitMusic.mp3')">Click to view Portrait</div>
+    </div>
+
+   
+    <div class="flowers">
+      <h2>Flower Section</h2>
+      <div class="flower" onclick="playMusic('flowerMusic1.mp3')">Flower 1</div>
+      <div class="flower" onclick="playMusic('flowerMusic2.mp3')">Flower 2</div>
+      <div class="flower" onclick="playMusic('flowerMusic3.mp3')">Flower 3</div>
+    </div>
+
+  
+    <div class="flag-section">
+      <h2>American Flag</h2>
+      <div class="flag" onclick="playMusic('flagMusic.mp3')">Click to play Flag Music</div>
+    </div>
+
+  </div>
+
++
+  <audio id="audioPlayer"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
