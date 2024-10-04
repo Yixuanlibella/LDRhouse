@@ -1,0 +1,49 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('images/background.webp'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Courier New', Courier, monospace;
+  color: white; 
+   justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+
+#poem {
+  width: 66%; /* 2/3 of the screen width */
+  margin: 10vh auto; /* Center the content with some vertical space */
+  font-size: 24px;
+  line-height: 1.8;
+  background-color: rgba(0, 0, 0, 0.5); /* Slightly translucent background for text readability */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for the text box */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7); /* Add some shadow to the text box */
+}
+
+/* Style the clickable song titles */
+button.song-title {
+  all: unset; /* Removes default button styling */
+  font-style: italic;
+  font-weight: bold;
+  color: #ffb6c1; /* Soft pink for the song titles */
+  font-size: 1.1em;
+  cursor: pointer; /* Make it clear the text is clickable */
+  transition: color 0.3s ease;
+}
+
+button.song-title:hover {
+  color: #ff69b4; /* Brighter pink when hovering over the song titles */
+}
+
+#sketch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px; /* Same as your sketch width */
+  height: 600px; /* Same as your sketch height */
+}

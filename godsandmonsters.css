@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/background.webp'); /* Background specific to this page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+#poem {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Optional translucent background for readability */
+    border-radius: 10px; /* Add some styling to make it pop */
+    margin-bottom: 20px; /* Ensure space between poem and sketch */
+}
+
+/* Ensure the sketch-container is visible and centered */
+#sketch-container {
+    display: flex;
+    justify-content: center; /* Center the sketch horizontally */
+   
+    width: 400px; /* Define explicit width for the sketch */
+    height: 400px; /* Define explicit height for the sketch */
+    background-color: rgba(0, 0, 0, 0.5); /* Optional background for the sketch container */
+    border-radius: 10px;
+}
